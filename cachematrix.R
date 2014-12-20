@@ -4,9 +4,6 @@
 ## Write a short comment describing this function
 
 
-mat<-matrix(data=c(1:4),nrow=2,ncol=2)
-a<-makeCacheMatrix()
-a$set(matrix(1:4,2,2))
 
 cacheSolve(a)
 
@@ -35,3 +32,7 @@ cacheSolve <- function(x=matrix(), ...) {
   x$setmatrix(m)
   m
 }
+
+mat<-matrix(data=c(1:4),nrow=2,ncol=2)
+a<-makeCacheMatrix()
+a$set(matrix(1:4,2,2))
