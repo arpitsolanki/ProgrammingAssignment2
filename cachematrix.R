@@ -3,7 +3,6 @@
 
 ## Write a short comment describing this function
 
-?matrix
 
 mat<-matrix(data=c(1:4),nrow=2,ncol=2)
 a<-makeCacheMatrix()
